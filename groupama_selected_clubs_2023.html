@@ -1,3 +1,12 @@
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+<script>
+$(document).ready(function() {
+    $("#club_user_id").select2();
+});
+</script>
+
 <select id="club_user_id" name="club_user_id" data-name="club_user_id" required=true class="input-text select w-select">
   <option value="">Choisissez ...</option>
   <option value="268a916c-e456-4a5e-baee-9afbd59dc918">Ac Marines	-	95640	Marines</option>
@@ -131,4 +140,3 @@
   <option value="6d5a002d-d7c2-4667-9590-50b1a513eacc">VELOCE CLUB CHARENTE OCEAN Handisport	-	17000	La Rochelle</option>
   <option value="2a0e563e-814d-4c04-ac90-ecf416fc764b">Vtt Conliege-jura-bassin de Lons le Saunier	-	39570	Lons-le-Saunier</option>
 </select>
-
